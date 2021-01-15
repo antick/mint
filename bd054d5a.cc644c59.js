@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{90:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Introducing Mint Stack","permalink":"/blog/mint-stack"}]}')}}]);
