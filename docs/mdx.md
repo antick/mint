@@ -3,12 +3,12 @@ id: mdx
 title: Powered by MDX
 ---
 
-export const Highlight = ({children, color}) => ( <span style={{
+export const Highlight = ({children, color}) => (<span style={{
     backgroundColor: color,
     borderRadius: '2px',
     color: '#fff',
     padding: '0.2rem',
-}}>{children}</span> );
+}}>{children}</span>);
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
 

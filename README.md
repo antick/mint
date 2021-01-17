@@ -1,3 +1,9 @@
+
+<p align="center">
+    <img src="static/img/logo-dark.png" width="100%" />
+</p>
+<br/>
+
 # 💎 Mint Stack 💎
 
 Mint stack provides a complete starter kit for backend/frontend stacks.

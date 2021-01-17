@@ -2,10 +2,10 @@ module.exports = {
   title: 'Mint Stack',
   tagline: 'Starter-kits for MERN Stack with inbuilt auth and CRUD',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/mint/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
   organizationName: 'antick', // Usually your GitHub org/user name.
   projectName: 'mint', // Usually your repo name.
   themeConfig: {
@@ -13,7 +13,7 @@ module.exports = {
       title: 'Mint',
       logo: {
         alt: 'Mint Stack',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
