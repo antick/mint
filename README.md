@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="static/img/logo-dark.png" width="100%" />
+    <img src="static/img/logo-light.png" width="100%" />
 </p>
 <br/>
 
