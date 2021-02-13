@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-test-site.com/blog</id>
+    <id>https://antick.github.io/mint/blog</id>
     <title>Mint Stack Blog</title>
     <updated>2020-01-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <link rel="alternate" href="https://antick.github.io/mint/blog"/>
     <subtitle>Mint Stack Blog</subtitle>
-    <icon>https://your-docusaurus-test-site.com/img/logo.png</icon>
+    <icon>https://antick.github.io/mint/img/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Introducing Mint Stack]]></title>
         <id>mint-stack</id>
-        <link href="https://your-docusaurus-test-site.com/mint/blog/mint-stack"/>
+        <link href="https://antick.github.io/mint/mint/blog/mint-stack"/>
         <updated>2020-01-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to the Mint Stack Blog. I am very excited to share my work to the open source community. I have spent]]></summary>
     </entry>

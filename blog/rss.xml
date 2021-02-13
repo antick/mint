@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>Mint Stack Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://antick.github.io/mint/blog</link>
         <description>Mint Stack Blog</description>
         <lastBuildDate>Wed, 15 Jan 2020 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Introducing Mint Stack]]></title>
-            <link>https://your-docusaurus-test-site.com/mint/blog/mint-stack</link>
+            <link>https://antick.github.io/mint/mint/blog/mint-stack</link>
             <guid>mint-stack</guid>
             <pubDate>Wed, 15 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the Mint Stack Blog. I am very excited to share my work to the open source community. I have spent]]></description>
