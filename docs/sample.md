@@ -1,64 +1,22 @@
 ---
-id: what-is-mint-stack
-title: What is Mint Stack
-sidebar_label: What is Mint Stack
-slug: /
+id: sample
+title: Sample document
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+export const Highlight = ({children, color}) => (<span style={{
+backgroundColor: color,
+borderRadius: '2px',
+color: '#fff',
+padding: '0.2rem',
+}}>{children}</span>);
 
-## Markdown Syntax
+You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
 
-To serve as an example page when styling markdown based Docusaurus sites.
+<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
 
-## Headers
-
-# H1 - Create the best documentation
-
-## H2 - Create the best documentation
-
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
+I can write **Markdown** alongside my _JSX_!
 
 ## Links
-
-[I'm an inline-style link](https://www.google.com/)
 
 [I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
 
@@ -70,8 +28,6 @@ Or leave it empty and use the [link text itself].
 
 URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
 
-Some text to show that the reference links can follow later.
-
 [arbitrary case-insensitive reference text]: https://www.mozilla.org/
 [1]: http://slashdot.org/
 [link text itself]: http://www.reddit.com/
@@ -79,8 +35,6 @@ Some text to show that the reference links can follow later.
 ---
 
 ## Images
-
-Here's our logo (hover to see the title text):
 
 Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
 
@@ -90,7 +44,7 @@ Reference-style: ![alt text][logo]
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
-![img](../../static/img/logo.png)
+![img](../static/img/logo.png)
 
 ---
 

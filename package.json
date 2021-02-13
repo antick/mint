@@ -1,7 +1,23 @@
 {
   "name": "mint",
   "version": "0.1.0",
-  "private": true,
+  "author": {
+    "name": "Pankaj Sanam",
+    "email": "pankaj@desk.sh",
+    "url": "https://pankajsanam.github.io"
+  },
+  "keywords": [
+    "mint",
+    "mint react",
+    "boilerplate",
+    "mern",
+    "react",
+    "hooks",
+    "frontend"
+  ],
+  "description": "Mint stack documentation",
+  "license": "MIT License",
+  "repository": "https://github.com/antick/mint.git",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -17,6 +33,7 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
+    "cross-env": "^7.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },

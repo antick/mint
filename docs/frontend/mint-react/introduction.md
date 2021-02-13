@@ -4,7 +4,7 @@ title: Introduction to Mint React
 sidebar_label: Introduction
 ---
 
-Welcome to Mint React. You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+Welcome to the Mint React. You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
 
 export const Highlight = ({children, color}) => ( <span style={{
       backgroundColor: color,

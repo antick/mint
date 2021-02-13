@@ -1,24 +1,20 @@
 module.exports = {
   someSidebar: {
     'Getting Started': [
-      'getting-started/what-is-mint-stack',
-      'doc2',
-      'doc3'
-    ],
-    Features: [
-      'mdx'
+      'what-is-mint-stack',
+      'contributing'
     ],
     'Backend Stack': [
       {
         'Mint Express': [
-          'react/react-introduction'
+          'backend/mint-express/what-is-mint-express'
         ],
       }
     ],
     'Frontend Stack': [
       {
         'Mint React': [
-          'mdx'
+          'frontend/mint-react/react-introduction'
         ],
       }
     ],
