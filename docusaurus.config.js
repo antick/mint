@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Mint Stack',
   tagline: 'Starter kits (boilerplate) for MERN stack with inbuilt auth and CRUD',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://antick.github.io/mint/',
   baseUrl: '/mint/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -52,11 +52,11 @@ module.exports = {
           items: [
             {
               label: 'Mint Express',
-              to: 'docs/',
+              to: 'docs/backend/mint-express/what-is-mint-express/',
             },
             {
               label: 'Mint React',
-              to: 'docs/doc2/',
+              to: 'docs/frontend/mint-react/react-introduction/',
             },
           ],
         },

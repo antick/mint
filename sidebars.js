@@ -14,7 +14,7 @@ module.exports = {
     'Frontend Stack': [
       {
         'Mint React': [
-          'frontend/mint-react/react-introduction'
+          'frontend/mint-react/what-is-mint-react'
         ],
       }
     ],
