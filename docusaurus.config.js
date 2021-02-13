@@ -56,7 +56,7 @@ module.exports = {
             },
             {
               label: 'Mint React',
-              to: 'docs/frontend/mint-react/react-introduction/',
+              to: 'docs/frontend/mint-react/what-is-mint-react/',
             },
           ],
         },
