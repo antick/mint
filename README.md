@@ -6,11 +6,12 @@
 
 # 💎 Mint Stack 💎
 
-Mint stack provides a complete starter kit for backend/frontend stacks.
+Mint stack provides a complete starter kit for backend/frontend stacks. This repository holds the documentation for all
+the stacks developed under the Mint Stack Group.
 
 ### Backend Stacks:
 
-1. [Node/Express, MongoDB](https://github.com/antick/mint-express)
+1. [Node/Express and MongoDB](https://github.com/antick/mint-express)
 2. Laravel
 3. Deno
 4. Django
@@ -18,13 +19,9 @@ Mint stack provides a complete starter kit for backend/frontend stacks.
 
 ### Frontend Stacks
 
-1. [React Hooks, Redux](https://github.com/antick/mint-react)
+1. [React Hooks and Redux](https://github.com/antick/mint-react)
 2. Vue
 3. Svelte
-
-## Note:
-
-Mint stack is under heavy development so more details will be added here in soon.
 
 ## Author
 

@@ -8,28 +8,18 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Setup',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Modular Architecture',
+    imageUrl: 'img/modular-architecture.svg',
     description: (
       <>
-        Mint Stack was designed from the ground up to be easily installed and
-        used to get your projects up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Saves time',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Mint Stack lets you focus on your real project by providing a lot of features out-of-the-box.
-        It gives you a lot of things in-built.
+        All the apps in the Mint stack follows a modular architecture with best coding standards and practices.
+        This makes sure that your app is robust on all fronts.
       </>
     ),
   },
   {
     title: 'Multiple Tech Stacks',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_create_f05x.svg',
     description: (
       <>
         Currently, Mint Stack is available for MERN Stack. But we are working to get other backend and
@@ -37,10 +27,21 @@ const features = [
       </>
     ),
   },
+  {
+    title: 'Built-in Authentication',
+    imageUrl: 'img/built-in-auth.svg',
+    description: (
+      <>
+        Mint Stack provides the authentication and authorization out-of-the-box so you can save your time by only
+        focusing on the real work.
+      </>
+    ),
+  },
 ];
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
+
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
@@ -48,7 +49,7 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <h3 className="text--center">{title}</h3>
       <p>{description}</p>
     </div>
   );
@@ -57,6 +58,7 @@ function Feature({imageUrl, title, description}) {
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -67,10 +69,7 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
+              className={clsx('button button--outline button--secondary button--lg', styles.getStarted)}
               to={useBaseUrl('docs/')}>
               Get Started
             </Link>

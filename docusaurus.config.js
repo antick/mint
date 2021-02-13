@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Mint Stack',
-  tagline: 'Starter-kits for MERN Stack with inbuilt auth and CRUD',
+  tagline: 'Starter kits (boilerplate) for MERN stack with inbuilt auth and CRUD',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/mint/',
   onBrokenLinks: 'throw',
@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'mint', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Mint',
+      title: 'Mint Stack',
       logo: {
         alt: 'Mint Stack',
         src: 'img/logo.png',
@@ -64,12 +64,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/mint',
-            },
-            {
               label: 'Discord',
-              href: 'https://discord.gg/FF2eEyAW8D',
+              href: 'https://discord.gg/6jgSTR2pAF',
             },
             {
               label: 'Twitter',
@@ -100,11 +96,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/antick/mint/edit/master/website/',
+          editUrl: 'https://github.com/antick/mint/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/antick/mint/edit/master/website/blog/',
+          editUrl: 'https://github.com/antick/mint/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
